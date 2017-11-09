@@ -10,4 +10,7 @@ We would be designing a machine learning model which will be considering multipl
 
 #### Machine Learning Model Testing Phase
 
+Developing a design model constitutes 70% for the development of the project and testing the data model would be 30%.
+The model developed would be tested by the data and the results are noted. The model that predicts the dengue accurately is used to develop the project. 
+
 #### Visualization Phase using Google Maps API
