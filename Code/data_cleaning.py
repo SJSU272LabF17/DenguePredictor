@@ -22,3 +22,8 @@ features_iq = features_iq.fillna(features_iq_mean)
 
 # print(features_sj)
 # print(features_iq)
+
+# Saving the cleaned data
+features_sj.to_csv("/home/varunu28/PycharmProjects/272Project/testdata/features_sj.csv")
+features_iq.to_csv("/home/varunu28/PycharmProjects/272Project/testdata/features_iq.csv")
+
