@@ -14,3 +14,13 @@ Developing a design model constitutes 70% for the development of the project and
 The model developed would be tested by the data and the results are pushed to the database/file. These values are then used in visualising the data in google maps API in our web project. 
 
 #### Visualization Phase using Google Maps API
+Developing a web based Module which will show the prediction on the Google Map according to City.
+
+
+# Libraries Used
+
+#### Data cleaning 
+Pandas
+
+#### Data Ploting
+matplotlib
