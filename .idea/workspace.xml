@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="739cf401-6f12-4c62-bae8-cf53d0f9f262" name="Default" comment="Added code for prediction based on residual data">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Code/data_cleaning.py" afterPath="$PROJECT_DIR$/Code/1_data_cleaning.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Code/pickle_data.py" afterPath="$PROJECT_DIR$/Code/2_pickle_data.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Code/predicting_dengue.py" afterPath="$PROJECT_DIR$/Code/3_predicting_dengue.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Code/prediction_monthly.py" afterPath="$PROJECT_DIR$/Code/4_prediction_monthly.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
