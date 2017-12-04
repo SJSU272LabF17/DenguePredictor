@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 features = pd.read_csv('../data/dengue_features_train.csv', parse_dates=[3])
 # print(features)
@@ -9,6 +11,22 @@ features_sj = features[features['city'] == 'sj']
 
 # print(features_sj)
 # print(features_iq)
+
+fig, ax = plt.subplots(figsize=(10,6))
+sns.heatmap(features_iq.isnull().reset_index(drop=True),ax=ax, cbar = False, yticklabels = 50)
+
+plt.ylabel("Row number", size = 22)
+plt.xlabel("Feature name", size = 22)
+plt.title("Iquitos Missing Data", size = 32)
+# plt.show()
+
+fig, ax = plt.subplots(figsize=(10,6))
+sns.heatmap(features_sj.isnull(),ax=ax, cbar = False, yticklabels = 50)
+
+plt.ylabel("Row number", size = 22)
+plt.xlabel("Feature name", size = 22)
+plt.title("San Juan Missing Data", size = 32)
+# plt.show()
 
 features_iq_mean = features_iq.mean()
 features_sj_mean = features_sj.mean()
