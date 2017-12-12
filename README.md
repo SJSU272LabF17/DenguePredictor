@@ -1,5 +1,13 @@
 # Dengue Predictor (Team 25)
 
+![Demo](Plots/demo.png)
+
+#### Upload the prediction results CSV file on below link
+[Dengue Predictor Hosted on AWS](http://ec2-34-238-124-145.compute-1.amazonaws.com/DenguePrediction/)
+
+#### The visualization on Google Maps API
+[Google Maps API Visualization](http://ec2-34-238-124-145.compute-1.amazonaws.com/DenguePrediction/jsp/map.jsp)
+
 A project using machine learning models to predict the dengue outbreak and give Visualization of the predition geographically using google maps.
 
 # Project Design
@@ -26,6 +34,20 @@ This is the Visualizer API which allows users to get the visualization of the De
 
 Users are allowed to upload the prediction data csv (it can be ours or can be from other prediction). The web module will fetch the data from CSV and put it into the MySql database according to the required format. The prediction data along with the citi's longitude and latitude data is used to show the Visualization on the google map. It contains all the functionalities which google map is giving along with our custom facilities to narrow down the search starting from year to week of year.
 
+#### Visualization Plots
+
+#### Cases Per Week San Juan
+![San Juan](Plots/SJ_cases_per_week.png)
+
+#### Cases Per Week Iquitos
+![Iquitos](Plots/IQ_cases_per_week.png)
+
+#### HeatMap for cases in San Juan
+![San Juan](Plots/heatmap_iq_cases.png)
+
+#### HeatMap for cases in Iquitos
+![Iquitos](Plots/heatmap_sj_cases.png)
+
 
 # Libraries Used
 
@@ -36,7 +58,7 @@ Pandas, numpy.
 matplotlib, seaborn charts
 
 #### Visualization
-Googlr Maps API
+Google Maps API
 
 
 # Prediction Algorythm
