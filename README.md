@@ -1,6 +1,6 @@
 # Dengue Predictor (Team 25)
 
-A web based project using machine learning models to predict the dengue outbreak
+A project using machine learning models to predict the dengue outbreak and give Visualization of the predition geographically using google maps.
 
 # Project Design
 
